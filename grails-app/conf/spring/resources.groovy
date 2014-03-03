@@ -5,6 +5,7 @@ import grails.rest.render.json.JsonRenderer
 import org.codehaus.groovy.grails.web.mime.MimeType
 
 beans = {
+
   final API_MIME_TYPE = "application/vnd.app.api+json"
   final v1_MIME_TYPE = new MimeType(API_MIME_TYPE, [v: '1.0'])
   final v2_MIME_TYPE = new MimeType(API_MIME_TYPE, [v: '2.0'])
