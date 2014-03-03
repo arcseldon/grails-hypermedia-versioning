@@ -31,7 +31,10 @@ grails.mime.types = [ // the first one is the default format
     xml:           ['text/xml', 'application/xml'],
 
     person:        'application/vnd.app.person+json;v=1.0',
-    personv2:      'application/vnd.app.person+json;v=2.0'
+    personv2:      'application/vnd.app.person+json;v=2.0',
+
+    api:           'application/vnd.app.api+json;v=1.0',
+    apiv2:         'application/vnd.app.api+json;v=2.0'
 ]
 
 // URL Mapping Cache Max Size, defaults to 5000
