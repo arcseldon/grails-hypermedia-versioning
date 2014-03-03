@@ -33,7 +33,6 @@ grails.mime.types = [ // the first one is the default format
     person:        'application/vnd.app.person+json;v=1.0',
     personv2:      'application/vnd.app.person+json;v=2.0'
 ]
-grails.mime.use.accept.header = true
 
 // URL Mapping Cache Max Size, defaults to 5000
 //grails.urlmapping.cache.maxsize = 1000
